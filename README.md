@@ -1,5 +1,17 @@
 # odev_assignment
 
+## Docker
+
+### Build your docker image
+```
+docker build . -t odev_assignment
+```
+
+### Run your docker image
+```
+docker run -d -p 8080:80 odev_assignment
+```
+
 ## Project setup
 ```
 npm install
@@ -14,6 +26,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
