@@ -1,4 +1,4 @@
-# odev_assignment
+# O. Dev frontend test assignment
 
 ## Docker
 
@@ -12,7 +12,7 @@ docker build . -t odev_assignment
 docker run -d -p 8080:80 odev_assignment
 ```
 
-## Project setup
+## Vue project setup
 ```
 npm install
 ```
